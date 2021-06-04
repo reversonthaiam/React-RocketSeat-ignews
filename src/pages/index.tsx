@@ -4,6 +4,7 @@ import styles from "./home.module.scss";
 import { GetStaticProps } from "next";
 import { stripe } from "../services/stripe";
 
+
 interface HomeProps {
   product: {
     priceId: string;
